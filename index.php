@@ -15,8 +15,11 @@
     {
          $res = $this->subsystem1->oper1();
          $res .= $this->subsystem2->oper1();
+
          $res .= $this->subsystem1->oper2();
          $res .= $this->subsystem2->oper2();
+
+         return $res;
     }
 
  }
